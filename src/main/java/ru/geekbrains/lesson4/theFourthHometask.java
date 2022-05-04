@@ -11,7 +11,7 @@ public class theFourthHometask {
             humanTurns(field);
             printField(field);
             if  (isWinner(field, "X")) {
-                System.out.println("Human wins");
+                System.out.println("Человек выиграл");
                 break;
             }
             if (isDraw(field)) {
@@ -20,7 +20,7 @@ public class theFourthHometask {
             aiTurns(field);
             printField(field);
            if (isWinner(field, "O")) {
-               System.out.println("Ai wins");
+               System.out.println("ИИ выиграл");
                break;
            }
             if (isDraw(field)) {
@@ -126,7 +126,7 @@ public class theFourthHometask {
                 }
             }
         }
-        System.out.println("Draw");
+        System.out.println("Ничья");
         return true;
     }
 }
