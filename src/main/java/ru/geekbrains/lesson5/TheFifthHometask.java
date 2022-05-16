@@ -17,7 +17,9 @@ public class TheFifthHometask {
         for (int i = 0; i < employees.length; i++) {
                 if (employees[i].age >=40)
                     System.out.println("Сотрудник" + " "+ employees[i].name + " " + "старше сорока лет, его возраст:"
-                            + " " + employees[i].age + " " + "лет");
+                            + " " + employees[i].age + " " + "лет" + ", его рабочая почта:" + " "
+                            + employees[i].email +  ", его номер телефона:" + " " + employees[i].phoneNumber
+                            + ", его зарплата: " + employees[i].salary);
                 }
             }
         }
