@@ -5,7 +5,7 @@ public class TheFifthHometask {
         Employee employee1 = new Employee("Ivan", "Driver", "Vanya@mail.ru",
                 89991234567L, 40000, 25);
         Employee employee2 = new Employee("Leonid", "Storekeeper", "Lenya@mail.ru",
-                89991234568L, 60000, 45);
+                89991234568L, 60000, 46);
         Employee employee3 = new Employee("Petr", "General Manager", "Petr@mail.ru",
                 89991234569L, 200000, 57);
         Employee employee4 = new Employee("Svetlana", "Accountant", "Sveta@mail.ru",
